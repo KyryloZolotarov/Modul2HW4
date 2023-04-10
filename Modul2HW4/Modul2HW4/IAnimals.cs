@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Modul2HW4
 {
-    internal interface IAnimals
+    internal interface IAnimals : IComparable
     {
         public int Weight { get; set; }
         public int Age { get; set; }

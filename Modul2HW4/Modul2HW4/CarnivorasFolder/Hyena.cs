@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace Modul2HW4.CarnivorasFolder
 {
-    internal class Hyena: Carnivoras
+    internal class Hyena : Carnivoras
     {
-        public int PawsCount { get; set; } = 4;
         public Hyena(int weight, int age, string name, bool tail)
         {
             Weight = weight;
@@ -16,5 +15,7 @@ namespace Modul2HW4.CarnivorasFolder
             Name = name;
             Tail = tail;
         }
+
+        public int PawsCount { get; set; } = 4;
     }
 }

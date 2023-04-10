@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace Modul2HW4.CarnivorasFolder
 {
-    internal class Lion: Carnivoras
+    internal class Lion : Carnivoras
     {
-        public bool Mane { get; set; } = true;
-        public int PawsCount { get; set; } = 4;
         public Lion(int weight, int age, string name, bool tail)
         {
             Weight = weight;
@@ -17,5 +15,8 @@ namespace Modul2HW4.CarnivorasFolder
             Name = name;
             Tail = tail;
         }
+
+        public bool Mane { get; set; } = true;
+        public int PawsCount { get; set; } = 4;
     }
 }
